@@ -1,12 +1,13 @@
-import Header from './componentes/Header/Header';
-import Pesquisa from './componentes/Pesquisa/Pesquisa'
-
 // Estilo
 import styled from 'styled-components';
 
+//Componentes
+import Header from './componentes/Header/Header';
+import Pesquisa from './componentes/Pesquisa/Pesquisa'
+import UltimosLancamentos from './componentes/UltimosLancamentos/UltimosLancamentos';
 
 
-// Conainer que guarda estilos:
+// Container que guarda estilos:
 const AppContainer = styled.div`
  
       width: 100vw;
@@ -19,7 +20,9 @@ function App() {
     <AppContainer>
       <Header />
       <Pesquisa />
+      <UltimosLancamentos />
     </AppContainer>
+    
     
   );
 }
